@@ -1,0 +1,56 @@
+.body{
+    margin: 0;
+    background-color: #0d0f36;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0d0f36 ;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+.mensagem{
+    
+}
+
+.mensagem>h1{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 800px 200000px white;
+    color: #808080;
+    box-sizing:none;
+}
+
+.Sim{
+  
+    width: 100px;
+    height: 50px;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   border-radius: 8px;
+   justify-content: center;
+   background-color: #808080;
+   box-shadow: 0px 0px 40px white;
+
+}
+.no{
+   
+    width: 100px;
+    height: 50px;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   border-radius: 8px;
+   justify-content: center;
+   background-color: #808080;
+   box-shadow: 0px 0px 40px white;
+}
+

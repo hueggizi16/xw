@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocreia corna que gosta dus favela</title>
+</head>
+<body>
+    <div class="main">
+    <div class="card"></div>
+    <div class="mensagem"> <h1>a xerequinha ta pra jogo?</h1></div>
+   <center> <button id="sim" class="Sim"><a href="https://www.youtube.com/watch?v=VWor7LMBzPk"> claro</a></button><br>
+    <br>
+    <button id="nao" class="no">Não</button></center>
+           
+    
+    <script>
+        let button = document.getElementById('nao');
+        let height = window.innerHeight - 50;
+        let width = innerWidth - 50;
+
+        button.addEventListener('mouseover', function(){
+            button.style.position = "absolute";
+            button.style.top = Math.random() * height + "px";
+            button.style.left = Math.random() * width + "px";
+
+        })
+    </script>
+    </div> 
+</body>
+</html>
